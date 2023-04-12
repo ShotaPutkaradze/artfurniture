@@ -1,5 +1,30 @@
 .header_container {
-  width: 1200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fed74e;
+  height: 8rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  font-size: 1.6rem;
+}
+
+.main_nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.main_nav .header_link {
+  color: #444;
+  font-size: 2rem;
+  font-family: Georgian;
+}
+
+.mail_link .header_link {
+  color: #444;
+  font-size: 2rem;
+  font-family: Rubik;
+  text-transform: uppercase;
 }
