@@ -4,11 +4,17 @@
   align-items: center;
 
   background-color: #fed74e;
-  height: 8rem;
+  height: 9.6rem;
   max-width: 100%;
   margin: 0 auto;
   padding: 2rem 4rem;
   font-size: 1.6rem;
+}
+
+.header_logo {
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .main_nav ul {
@@ -16,15 +22,20 @@
   gap: 2rem;
   list-style: none;
 }
-.main_nav .header_link {
+.main_nav .main_nav_link {
   color: #444;
   font-size: 2rem;
   font-family: Georgian;
+  text-decoration: none;
 }
 
-.mail_link .header_link {
+.mail_link .main_nav_link,
+.header_logo {
   color: #444;
   font-size: 2rem;
   font-family: Rubik;
-  text-transform: uppercase;
+
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
