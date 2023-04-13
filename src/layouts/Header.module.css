@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
 
-  background-color: #fed74e;
+  background-color: #fff3ca;
   height: 9.6rem;
   max-width: 100%;
   margin: 0 auto;
@@ -11,31 +11,22 @@
   font-size: 1.6rem;
 }
 
-.header_logo {
+.header_slogan {
   padding: 1rem 2rem;
   border: 1px solid white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
 }
 
-.main_nav ul {
+.main_nav {
   display: flex;
   gap: 2rem;
   list-style: none;
-}
-.main_nav .main_nav_link {
-  color: #444;
-  font-size: 2rem;
-  font-family: Georgian;
-  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.mail_link .main_nav_link,
-.header_logo {
-  color: #444;
-  font-size: 2rem;
-  font-family: Rubik;
-
-  padding: 1rem 2rem;
-  border: 1px solid white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.header_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
