@@ -1,32 +1,46 @@
-.header_container {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
 
-  background-color: #fff3ca;
+  background-color: #fffcf6;
   height: 9.6rem;
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem 4rem;
   font-size: 1.6rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
 }
-
-.header_slogan {
-  padding: 1rem 2rem;
-  border: 1px solid white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-}
-
-.main_nav {
+.slogan {
   display: flex;
-  gap: 2rem;
-  list-style: none;
-  text-transform: uppercase;
+  align-items: center;
+  height: 100%;
+}
+.slogan a:link,
+.slogan a:visited {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+
+  text-decoration: none;
+  color: #444;
+  font-size: 3.6rem;
+  font-family: "Rubik", sans-serif;
+
+  border-left: 1px solid #898989;
+  border-right: 1px solid #898989;
+  transition: all 0.5s;
 }
 
-.header_contact {
+.slogan a:hover,
+.slogan a:active {
+  color: #898989;
+}
+
+.contact {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  text-decoration: none;
 }

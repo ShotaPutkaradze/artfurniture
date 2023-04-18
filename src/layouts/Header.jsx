@@ -1,21 +1,19 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import styles from "./Header.module.css";
+import MainNav from "../components/MainNav";
 
 const Header = () => {
   return (
     <div>
-      <header className={styles.header_container}>
-        <div className={styles.header_slogan}>
-          <a href="/#">CUSTOM FURNITURE</a>
+      <header className={styles.container}>
+        <div className={styles.slogan}>
+          <a href="/#">ArtFurniture</a>
         </div>
-        <nav className={styles.main_nav}>
-          <NavLink to={"/"}>Home</NavLink>
-          <NavLink to={"contact"}>Contact</NavLink>
-        </nav>
+        <MainNav />
         <div className={styles.header_contact}>
-          <a href="mailto:davit@artfurniture.ge">davit@artfurniture.ge</a>
           <a href="tel:+995555555555">+995 555 55 55 55</a>
         </div>
+        <div className={styles.header_language}></div>
       </header>
       <main>
         <Outlet />

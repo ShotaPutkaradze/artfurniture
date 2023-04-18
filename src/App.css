@@ -12,6 +12,36 @@ html {
   font-weight: 400;
   font-family: Rubik;
   text-decoration: none;
+  color: #555;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "BPG Nino Mtavruli";
+  src: url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.eot);
+  src: url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.woff2)
+      format("woff2"),
+    url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.woff)
+      format("woff"),
+    url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.ttf)
+      format("truetype"),
+    url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.svg#bpg_nino_mtavruliregular)
+      format("svg");
+}
+
+@font-face {
+  font-family: "BPG Arial Caps";
+  src: url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.eot);
+
+  src: url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.woff2) format("woff2"),
+    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.woff) format("woff"),
+    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.ttf)
+      format("truetype"),
+    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.svg#bpg_arial_capsregular)
+      format("svg");
+}
