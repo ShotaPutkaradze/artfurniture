@@ -9,12 +9,15 @@ const Header = () => {
         <div className={styles.slogan}>
           <a href="/#">ArtFurniture</a>
         </div>
-        <MainNav />
-        <div className={styles.header_contact}>
+
+        <div className={styles.contact}>
           <a href="tel:+995555555555">+995 555 55 55 55</a>
+          <div className={styles.header_language}></div>
         </div>
-        <div className={styles.header_language}></div>
       </header>
+
+      <MainNav />
+
       <main>
         <Outlet />
       </main>

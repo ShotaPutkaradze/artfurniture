@@ -1,7 +1,10 @@
 .main_nav {
   display: flex;
   align-items: center;
-  height: 100%;
+  justify-content: center;
+  gap: 4rem;
+  height: 6rem;
+  background-color: #857a72;
 }
 
 .main_nav_link:link,
@@ -12,7 +15,7 @@
   padding: 0 1rem;
   height: 100%;
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-size: 2rem;
   transition: color 0.5s;
 
@@ -21,9 +24,9 @@
 .main_nav_link:hover,
 .main_nav_link:active {
   padding: 0 0.9rem;
-  color: #898989;
-  border-left: 1px solid #898989;
-  border-right: 1px solid #898989;
+  color: #eeedec;
+  border-left: 1px solid #eeedec;
+  border-right: 1px solid #eeedec;
   /* offset-x | offset-y | blur-radius | color */
-  text-shadow: 0 0 1px #898989;
+  text-shadow: 0 0 1px #eeedec;
 }
