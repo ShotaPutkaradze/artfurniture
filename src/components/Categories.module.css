@@ -1,0 +1,36 @@
+.icons {
+  width: 120rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2.8rem;
+}
+
+.icon_box {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 12rem;
+  background-color: #eeedec;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+  stroke: #857a72;
+  fill: #857a72;
+}
+
+svg:hover {
+  fill: #857a72;
+  stroke: #857a72;
+}
+.icons h1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
