@@ -9,8 +9,10 @@
 .icon_box {
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
+
+  height: 17rem;
+
   align-items: center;
   width: 12rem;
   background-color: #eeedec;

@@ -25,10 +25,13 @@ function Categories() {
         <h1>ტანსაცმლის კარადა</h1>
       </div>
       <div className={styles.icon_box}>
+        <img src={iconShocabinet} className={styles.icon} alt="" />
+        <h1>შემოსასვლელის ავეჯი</h1>
+      </div>
+      <div className={styles.icon_box}>
         <img src={iconBookcase} className={styles.icon} alt="" />
         <h1>წიგნის კარადა</h1>
       </div>
-
       <div className={styles.icon_box}>
         <img src={iconMediacabinet} className={styles.icon} alt="" />
         <h1>ტელევიზორის კარადა</h1>
@@ -40,10 +43,6 @@ function Categories() {
       <div className={styles.icon_box}>
         <img src={iconOffice} className={styles.icon} alt="" />
         <h1>საოფისე ავეჯი</h1>
-      </div>
-      <div className={styles.icon_box}>
-        <img src={iconShocabinet} className={styles.icon} alt="" />
-        <h1>შემოსასვლელის ავეჯი</h1>
       </div>
     </div>
   );

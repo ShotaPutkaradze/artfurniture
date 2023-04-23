@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
-import styles from "./Header.module.css";
+import styles from "./Styles.module.css";
 import MainNav from "../components/MainNav";
+import Footer from "./Footer";
 
 const Header = () => {
   return (
     <div>
-      <header className={styles.container}>
+      <header className={styles.header_container}>
         <div className={styles.slogan}>
           <a href="/#">ArtFurniture</a>
         </div>
@@ -21,6 +22,10 @@ const Header = () => {
       <main>
         <Outlet />
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
