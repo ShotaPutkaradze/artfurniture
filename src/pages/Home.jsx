@@ -1,4 +1,3 @@
-import Categories from "../components/Categories";
 import ContactForm from "../components/ContactForm";
 import styles from "./Styles.module.css";
 
