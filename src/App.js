@@ -13,7 +13,7 @@ import Services from "./pages/Services";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Header />}>
+    <Route path="./" element={<Header />}>
       <Route index element={<Home />} />
       <Route path="projects" element={<Projects />} />
       <Route path="services" element={<Services />} />
