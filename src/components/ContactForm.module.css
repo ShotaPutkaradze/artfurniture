@@ -1,7 +1,8 @@
 .form {
   width: 30%;
   height: calc(100vh - 7.2rem - 6rem);
-  padding: 3.2rem;
+  padding: 1.6rem;
+  margin: 0 auto;
 
   display: flex;
   flex-direction: column;

@@ -22,7 +22,7 @@
   flex-direction: column;
   justify-content: center;
 
-  padding: 7.2rem;
+  padding: 3.2rem;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/background.webp");
