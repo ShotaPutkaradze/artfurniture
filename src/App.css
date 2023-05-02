@@ -14,6 +14,7 @@ html {
   font-family: Rubik;
   text-decoration: none;
   color: #555;
+  scroll-behavior: smooth;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap");

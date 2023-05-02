@@ -1,22 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import styles from "./MainNav.module.css";
 
 function MainNav() {
   return (
     <nav className={styles.main_nav}>
-      <Link className={styles.main_nav_link} to={"/"}>
-        მთავარი
-      </Link>
-      <Link className={styles.main_nav_link} to={"projects"}>
-        პროექტები
-      </Link>
-      <Link className={styles.main_nav_link} to={"services"}>
-        მომსახურეობა
-      </Link>
-      <Link className={styles.main_nav_link} to={"contact"}>
-        კონტაქტი
-      </Link>
+      <li className={styles.main_nav_link}>
+        <a href="#home_section">მთავარი</a>
+      </li>
+      <li className={styles.main_nav_link}>
+        <a href="#projects_section">პროექტები</a>
+      </li>
+      <li className={styles.main_nav_link}>
+        <a href="#services_section">მომსახურეობა</a>
+      </li>
+      <li className={styles.main_nav_link}>
+        <a href="#contact_section">კონტაქტი</a>
+      </li>
     </nav>
   );
 }
