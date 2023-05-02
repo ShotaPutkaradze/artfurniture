@@ -1,11 +1,34 @@
-.form_container {
-  width: 100%;
-}
-
 .form {
-  width: 100%;
+  width: 30%;
+  height: calc(100vh - 7.2rem - 6rem);
+  padding: 1.6rem;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
-  padding: 3.2rem;
-  gap: 3.2rem;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+.form input {
+  cursor: pointer;
+}
+
+.form_header,
+.form label,
+.form button {
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  color: #857a72;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.form input,
+.form button {
+  cursor: pointer;
+  width: 100%;
+  padding: 1rem 2rem;
 }

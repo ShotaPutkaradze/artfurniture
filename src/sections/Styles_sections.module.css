@@ -1,0 +1,108 @@
+/***** HomePage  styles *****/
+/****************************/
+
+.home_section {
+  max-width: 192rem;
+  margin: 0 auto;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3.2rem;
+
+  height: 60rem;
+  margin-bottom: 8rem;
+  padding: 4.8rem 6.4rem;
+  background-image: linear-gradient(
+      90deg,
+      rgba(238, 237, 236, 1) 50%,
+      rgba(255, 255, 255, 0.2) 65%
+    ),
+    url("../img/background.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  /* offset-x | offset-y | blur-radius | color */
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); */
+}
+
+.welcome_texts {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8em;
+  width: 100%;
+}
+
+.welcome_texts h1 {
+  width: 50%;
+  border-bottom: 2px solid #65783a;
+  width: fit-content;
+  margin-bottom: 2rem;
+
+  display: inline-block;
+
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 4.2rem;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  color: #000;
+}
+.welcome_texts h2,
+.welcome_texts p {
+  width: 70%;
+
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 3;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  color: #000;
+}
+
+.contact_btn {
+  font-family: "BPG Arial Caps", sans-serif;
+  width: fit-content;
+  padding: 2rem 8rem;
+  border: none;
+
+  cursor: pointer;
+  background-color: #65783a;
+
+  font-size: 1.6rem;
+  color: #eeedec;
+  letter-spacing: 0.5rem;
+  line-height: 1.8;
+}
+
+/***** Projects styles *****/
+/****************************/
+
+.projects_section {
+  height: 70rem;
+}
+
+/***** Services styles *****/
+/****************************/
+
+.services_section {
+  height: 70rem;
+}
+
+/***** Services styles *****/
+/****************************/
+
+.contacts_section {
+  height: 70rem;
+}

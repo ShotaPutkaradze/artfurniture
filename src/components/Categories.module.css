@@ -1,36 +1,37 @@
 .icons {
-  width: 120rem;
-  margin: 1rem auto;
-  display: flex;
-  justify-content: center;
-  gap: 2.8rem;
+  max-width: 192rem;
+  height: 60rem;
+  margin: 0 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3.2rem;
+  padding: 4rem;
+
+  background: linear-gradient(
+    180deg,
+    rgba(238, 237, 236, 1) 30%,
+    rgba(255, 255, 255, 0.4) 80%
+  );
+
+  border-radius: 3rem;
 }
 
 .icon_box {
   display: flex;
   flex-direction: column;
-
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 12rem;
-  background-color: #eeedec;
-  padding: 1.5rem;
-  border-radius: 1rem;
-}
-
-.icon {
-  width: 10rem;
   height: 10rem;
+  align-items: center;
+
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 3rem;
   cursor: pointer;
-  stroke: #857a72;
-  fill: #857a72;
 }
 
-svg:hover {
-  fill: #857a72;
-  stroke: #857a72;
-}
 .icons h1 {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: center;
+  font-family: "BPG Arial Caps", sans-serif;
 }
