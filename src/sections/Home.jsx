@@ -7,12 +7,11 @@ const Home = () => {
         <div className={styles.welcome_texts}>
           <h1>ავეჯის დამზადება ბათუმში</h1>
           <h2>ინდივიდუალური ზომები და დიზაინი, თანამედროვე მასალები</h2>
-
           <h2>აზომვითი სამუშაოები, ნახაზისა და 3D დიზაინის დამზადება</h2>
-
           <p>შესაძლებელია ავეჯის დამზადება განვადებით (თიბისი და კრედო ბანკი)</p>
+          <button className={styles.contact_btn}>მოგვწერეთ</button>
         </div>
-        <button className={styles.contact_btn}>მოგვწერეთ</button>
+        <div className={styles.test}></div>
       </div>
     </div>
   );

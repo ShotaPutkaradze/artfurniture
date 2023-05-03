@@ -1,3 +1,4 @@
+import HeaderSocials from "../components/HeaderSocials";
 import MainNav from "../components/MainNav";
 import styles from "./Styles_layouts.module.css";
 
@@ -8,10 +9,7 @@ const Header = () => {
         <a href="/#">ArtFurniture</a>
       </div>
       <MainNav />
-      <div className={styles.contact}>
-        <a href="tel:+995555555555">+995 555 55 55 55</a>
-        <div className={styles.header_language}></div>
-      </div>
+      <HeaderSocials />
     </header>
   );
 };
