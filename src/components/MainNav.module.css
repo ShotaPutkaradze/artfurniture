@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background-color: #fff;
 }
 .main_nav_link {
   list-style-type: none;
