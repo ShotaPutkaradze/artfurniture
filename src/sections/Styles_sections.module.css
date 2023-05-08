@@ -1,3 +1,10 @@
+/***** GENERAL *****/
+/****************************/
+
+.flexbox {
+  display: flex;
+}
+
 /***** HomePage  styles *****/
 /****************************/
 
@@ -90,17 +97,69 @@
   border: 2px solid #65783a;
 }
 
-/***** Projects styles *****/
-/****************************/
-
-.projects_section {
-  height: 70rem;
-}
-
 /***** Services styles *****/
 /****************************/
 
 .services_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 60rem; */
+  padding: 3rem;
+}
+.services_icon {
+  width: 32px;
+  height: 32px;
+  fill: #65783a;
+  margin-right: 1rem;
+}
+
+.services_list_conainer {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "BPG Arial Caps", sans-serif;
+  color: #000;
+  line-height: 1.8;
+}
+
+.services_list_conainer ul {
+  text-align: right;
+  padding-left: 3rem;
+  border-left: 5px solid #65783a;
+}
+
+.services_list_conainer p {
+  font-size: 3.2rem;
+}
+.services_list_conainer li {
+  font-size: 2.4rem;
+  list-style: none;
+  border-bottom: 1px solid #65783a;
+  transition: all 0.3s;
+}
+
+.services_list_conainer li:hover {
+  padding-right: 2rem;
+}
+
+.video {
+  width: 420px;
+  height: 315px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  font-size: 3.2rem;
+  font-family: "BPG Arial Caps", sans-serif;
+  color: #000;
+  line-height: 2.8;
+}
+
+/***** Projects styles *****/
+/****************************/
+
+.projects_section {
   height: 70rem;
 }
 
