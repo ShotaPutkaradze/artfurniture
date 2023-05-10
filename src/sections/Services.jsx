@@ -16,20 +16,19 @@ const Services = () => {
             დაგიმზადებთ:
           </p>
           <ul>
-            <li>შემოსასვლელის</li>
-            <li>მისაღების</li>
-            <li>სამზარეულოს</li>
-            <li>საძინებელის</li>
-            <li>საოფისე</li>
+            <li>შემოსასვლელის ავეჯს</li>
+            <li>მისაღების ავეჯს</li>
+            <li>სამზარეულოს ავეჯს</li>
+            <li>საძინებელის ავეჯს</li>
+            <li>საოფისე ავეჯს</li>
           </ul>
         </div>
-        <p className={styles.rotate}>ავეჯს</p>
       </div>
       <div>
         <iframe
           title="video"
           className={styles.video}
-          src="https://www.youtube.com/embed/h6tYRjE92gA"
+          src="https://www.youtube.com/embed/cJz9UE526Ug"
         ></iframe>
       </div>
     </div>

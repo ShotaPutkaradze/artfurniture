@@ -127,34 +127,41 @@
   text-align: right;
   padding-left: 3rem;
   border-left: 5px solid #65783a;
+  width: 40rem;
 }
 
 .services_list_conainer p {
   font-size: 3.2rem;
+  justify-self: right;
 }
 .services_list_conainer li {
   font-size: 2.4rem;
   list-style: none;
   border-bottom: 1px solid #65783a;
   transition: all 0.3s;
+  margin: 2rem 0;
 }
 
 .services_list_conainer li:hover {
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
 
 .video {
-  width: 420px;
-  height: 315px;
+  height: 429px;
+  width: 241px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  border: none;
 }
-
+/* 
 .rotate {
-  transform: rotate(90deg);
-  font-size: 3.2rem;
+   transform: rotate(90deg); 
+  font-size: 4.8rem;
   font-family: "BPG Arial Caps", sans-serif;
   color: #000;
   line-height: 2.8;
-}
+  align-self: center;
+  padding-left: 10rem;
+} */
 
 /***** Projects styles *****/
 /****************************/
