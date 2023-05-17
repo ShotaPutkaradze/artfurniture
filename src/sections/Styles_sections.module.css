@@ -111,7 +111,7 @@
   width: 32px;
   height: 32px;
   fill: #65783a;
-  margin-right: 1rem;
+  margin-right: 5rem;
 }
 
 .services_list_conainer {
@@ -121,6 +121,7 @@
   font-family: "BPG Arial Caps", sans-serif;
   color: #000;
   line-height: 1.8;
+  max-width: 70rem;
 }
 
 .services_list_conainer ul {
@@ -130,10 +131,14 @@
   width: 40rem;
 }
 
+.banks {
+  font-size: 1.2rem;
+}
 .services_list_conainer p {
   font-size: 3.2rem;
   justify-self: right;
 }
+
 .services_list_conainer li {
   font-size: 2.4rem;
   list-style: none;
