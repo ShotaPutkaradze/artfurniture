@@ -63,7 +63,7 @@
 
   font-family: "BPG Arial Caps", sans-serif;
   font-size: 1.6rem;
-  font-style: italic;
+
   line-height: 2;
   font-weight: 400;
 
@@ -172,6 +172,7 @@
 /****************************/
 
 .projects_section {
+  display: grid;
   height: 70rem;
 }
 

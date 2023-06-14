@@ -17,6 +17,8 @@ html {
   scroll-behavior: smooth;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap");
 
 @font-face {
@@ -40,8 +42,10 @@ html {
 
   src: url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.eot?#iefix)
       format("embedded-opentype"),
-    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.woff2) format("woff2"),
-    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.woff) format("woff"),
+    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.woff2)
+      format("woff2"),
+    url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.woff)
+      format("woff"),
     url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.ttf)
       format("truetype"),
     url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.svg#bpg_arial_capsregular)
