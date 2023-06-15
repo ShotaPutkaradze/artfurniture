@@ -13,7 +13,7 @@ const Home = () => {
 
           <button className={styles.contact_btn}>მოგვწერეთ</button>
         </div>
-        <div className={styles.test}></div>
+        <div className={styles.cover}></div>
       </div>
     </div>
   );
