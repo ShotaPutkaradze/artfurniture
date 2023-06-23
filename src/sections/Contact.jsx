@@ -3,9 +3,16 @@ import styles from "./Styles_sections.module.css";
 
 const Contact = () => {
   return (
-    <div id="contact_section" className={styles.contact_section}>
+    <section id="contact_section" className={styles.contacts_section}>
+      <div className={styles.form_header}>
+        <h3>ზარის შეკვეთა</h3>
+        <p>
+          დაგვიტოვეთ თქვენი საკონტაქტო ტელეფონის ნომერი, ჩვენ მალე
+          დაგიკავშირდებით
+        </p>
+      </div>
       <ContactForm />
-    </div>
+    </section>
   );
 };
 

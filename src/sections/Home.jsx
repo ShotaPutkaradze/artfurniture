@@ -11,7 +11,9 @@ const Home = () => {
           <h2>აზომვითი სამუშაოები</h2>
           <h2>ნახაზისა და 3D დიზაინის დამზადება</h2>
 
-          <button className={styles.contact_btn}>მოგვწერეთ</button>
+          <a className={styles.contact_btn} href="#contact_section">
+            დაგვიტოვეთ საკონტაქტო
+          </a>
         </div>
         <div className={styles.cover}></div>
       </div>

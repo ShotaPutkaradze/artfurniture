@@ -1,0 +1,133 @@
+{
+  "images": [
+    {
+      "thumbnail": "./galery/thumbnail/IMG1.WEBP",
+      "src": "./galery/IMG1.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG2.WEBP",
+      "src": "./galery/IMG2.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG3.WEBP",
+      "src": "./galery/IMG3.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG4.WEBP",
+      "src": "./galery/IMG4.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG5.WEBP",
+      "src": "./galery/IMG5.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG6.WEBP",
+      "src": "./galery/IMG6.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG7.WEBP",
+      "src": "./galery/IMG7.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG8.WEBP",
+      "src": "./galery/IMG8.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG9.WEBP",
+      "src": "./galery/IMG9.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG10.WEBP",
+      "src": "./galery/IMG10.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG11.WEBP",
+      "src": "./galery/IMG11.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG12.WEBP",
+      "src": "./galery/IMG12.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG13.WEBP",
+      "src": "./galery/IMG13.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG14.WEBP",
+      "src": "./galery/IMG14.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG15.WEBP",
+      "src": "./galery/IMG15.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG16.WEBP",
+      "src": "./galery/IMG16.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG17.WEBP",
+      "src": "./galery/IMG17.WEBP"
+    },
+
+    {
+      "thumbnail": "./galery/thumbnail/IMG19.WEBP",
+      "src": "./galery/IMG19.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG20.WEBP",
+      "src": "./galery/IMG20.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG21.WEBP",
+      "src": "./galery/IMG21.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG22.WEBP",
+      "src": "./galery/IMG22.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG23.WEBP",
+      "src": "./galery/IMG23.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG24.WEBP",
+      "src": "./galery/IMG24.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG25.WEBP",
+      "src": "./galery/IMG25.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG26.WEBP",
+      "src": "./galery/IMG26.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG27.WEBP",
+      "src": "./galery/IMG27.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG28.WEBP",
+      "src": "./galery/IMG28.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG29.WEBP",
+      "src": "./galery/IMG29.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG30.WEBP",
+      "src": "./galery/IMG30.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG31.WEBP",
+      "src": "./galery/IMG31.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG32.WEBP",
+      "src": "./galery/IMG32.WEBP"
+    },
+    {
+      "thumbnail": "./galery/thumbnail/IMG33.WEBP",
+      "src": "./galery/IMG33.WEBP"
+    }
+  ]
+}

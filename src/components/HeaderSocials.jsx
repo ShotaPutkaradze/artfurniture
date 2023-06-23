@@ -4,7 +4,11 @@ import styles from "./HeaderSocials.module.css";
 function HeaderSocials() {
   return (
     <div className={styles.social_container}>
-      <a href="https://www.facebook.com/artfurniture.ge" target="_blank">
+      <a
+        href="https://www.facebook.com/artfurniture.ge"
+        target="_blank"
+        rel="noreferrer"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"
@@ -16,7 +20,11 @@ function HeaderSocials() {
         </svg>
       </a>
 
-      <a href="https://www.instagram.com/artfurniture01/" target="_blank">
+      <a
+        href="https://www.instagram.com/artfurniture01/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"
@@ -31,6 +39,7 @@ function HeaderSocials() {
       <a
         href="https://www.youtube.com/channel/UC7FZP7yf-rDyyiJIL6Hd-IQ"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +54,11 @@ function HeaderSocials() {
         </svg>
       </a>
 
-      <a href="https://www.instagram.com/artfurniture01/" target="_blank">
+      <a
+        href="https://www.instagram.com/artfurniture01/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={styles.social_icons}

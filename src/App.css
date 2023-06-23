@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
   box-sizing: border-box;
 }
 
@@ -15,6 +16,7 @@ html {
   text-decoration: none;
   color: #555;
   scroll-behavior: smooth;
+  background-color: #f7f7f7;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap");
@@ -34,6 +36,7 @@ html {
       format("truetype"),
     url(../node_modules/bpg-nino-mtavruli/fonts/bpg-nino-mtavruli-webfont.svg#bpg_nino_mtavruliregular)
       format("svg");
+  font-display: swap;
 }
 
 @font-face {
@@ -50,4 +53,5 @@ html {
       format("truetype"),
     url(../node_modules/bpg-arial-caps/fonts/bpg-arial-caps-webfont.svg#bpg_arial_capsregular)
       format("svg");
+  font-display: swap;
 }
