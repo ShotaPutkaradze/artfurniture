@@ -2,7 +2,7 @@ import styles from "./Styles_sections.module.css";
 
 const Home = () => {
   return (
-    <div id="home_section" className={styles.home_section}>
+    <section id="home_section" className={styles.home_section}>
       <div className={styles.home_text_container}>
         <div className={styles.welcome_texts}>
           <h1>ავეჯის დამზადება ბათუმში</h1>
@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className={styles.cover}></div>
       </div>
-    </div>
+    </section>
   );
 };
 

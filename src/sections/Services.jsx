@@ -26,6 +26,8 @@ const Services = () => {
 
       <div>
         <iframe
+          id="video"
+          name="video"
           title="video"
           className={styles.video}
           src="https://www.youtube.com/embed/4t3lAuxqDR4"

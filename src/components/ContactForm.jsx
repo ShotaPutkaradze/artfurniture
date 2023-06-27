@@ -9,9 +9,12 @@ function ContactForm() {
           სახელი და გვარი
         </label>
         <input
+          name="full-name"
+          id="full-name"
           className={styles.input}
           type="text"
           placeholder="სახელი გვარი"
+          autocomplete="off"
           required
         />
       </div>
@@ -21,9 +24,12 @@ function ContactForm() {
           მობილური
         </label>
         <input
+          name="email"
+          id="email"
           className={styles.input}
           type="mobile"
           placeholder="XXX XX XX XX"
+          autocomplete="email"
           required
         />
       </div>
