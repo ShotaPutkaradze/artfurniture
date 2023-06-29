@@ -20,16 +20,16 @@ function ContactForm() {
       </div>
 
       <div>
-        <label className={styles.label} for="email">
+        <label className={styles.label} for="mobile">
           მობილური
         </label>
         <input
-          name="email"
-          id="email"
+          name="mobile"
+          id="mobile"
           className={styles.input}
           type="mobile"
-          placeholder="XXX XX XX XX"
-          autocomplete="email"
+          placeholder="555 12 34 56"
+          autocomplete="mobile"
           required
         />
       </div>

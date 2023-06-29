@@ -1,6 +1,3 @@
-/* main colors: #857a72 #fff; */
-/*light-americano  #EEEDEC*/
-
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +14,11 @@ html {
   color: #555;
   scroll-behavior: smooth;
   background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&display=swap");

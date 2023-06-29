@@ -3,6 +3,20 @@ import styles from "./Styles_sections.module.css";
 const Services = () => {
   return (
     <section id="services_section" className={styles.services_section}>
+      <iframe
+        className={styles.video}
+        id="video"
+        name="video"
+        title="video"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/4t3lAuxqDR4?color=white"
+      ></iframe>
+
       <div className={styles.services_list_conainer}>
         <p>
           <svg
@@ -22,16 +36,6 @@ const Services = () => {
           <li>საოფისე ავეჯს</li>
         </ul>
         {/* <p>შეკვეთა შესაძლებელია განვადებით (თიბისი და კრედო ბანკი)</p> */}
-      </div>
-
-      <div>
-        <iframe
-          id="video"
-          name="video"
-          title="video"
-          className={styles.video}
-          src="https://www.youtube.com/embed/4t3lAuxqDR4"
-        ></iframe>
       </div>
     </section>
   );

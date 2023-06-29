@@ -12,7 +12,7 @@ const Home = () => {
           <h2>ნახაზისა და 3D დიზაინის დამზადება</h2>
 
           <a className={styles.contact_btn} href="#contact_section">
-            დაგვიტოვეთ საკონტაქტო
+            მოგვწერეთ
           </a>
         </div>
         <div className={styles.cover}></div>

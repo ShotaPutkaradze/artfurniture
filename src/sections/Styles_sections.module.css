@@ -3,7 +3,7 @@
 
 .home_section {
   max-width: 192rem;
-  margin: 0 auto;
+  margin: 0 auto 3rem 0;
   padding-top: 8rem;
   display: flex;
   flex-direction: column;
@@ -84,6 +84,7 @@
   border-radius: 8px;
 
   transition: all 0.5s;
+  min-width: 30rem;
 }
 
 .contact_btn:hover {
@@ -93,7 +94,7 @@
 }
 
 .cover {
-  width: 80rem;
+  width: 81rem;
   height: 50rem;
 
   background-image: linear-gradient(90deg, #eeedec 2%, #ffffff0e 25%),
@@ -110,11 +111,13 @@
 .services_section {
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   min-height: 60rem;
   padding: 3rem;
   background-color: #f7f7f7;
 }
+
 .services_icon {
   width: 32px;
   height: 32px;
@@ -321,14 +324,17 @@
 
   .contact_btn {
     letter-spacing: 0.1rem;
-    padding: 0.8rem 1.6rem;
+    padding: 1.4rem 1.6rem;
   }
 }
 
 @media screen and (max-width: 775px) {
+  .home_text_container {
+    min-height: 60rem;
+  }
+
   .cover {
-    visibility: hidden;
-    width: 0;
+    display: none;
   }
 
   .form_header {
@@ -338,45 +344,39 @@
   .welcome_texts {
     text-align: center;
     justify-items: center;
+    gap: 2rem;
   }
 
   .welcome_texts h1 {
     margin: auto;
     width: 90%;
-  }
-
-  .contact_btn {
-    margin: auto;
-  }
-
-  .welcome_texts {
-    gap: 1rem;
-  }
-
-  .welcome_texts h1 {
     margin-bottom: 1rem;
-    font-size: 2.6rem;
-    line-height: 1.4;
+    font-size: 3.2rem;
+    line-height: 1.6;
   }
-  .welcome_texts h2 {
-    font-size: 1.6rem;
 
-    line-height: 1.2;
+  .welcome_texts h2 {
+    font-size: 2rem;
+
+    line-height: 1.4;
     font-weight: 400;
   }
 
   .contact_btn {
     letter-spacing: 0.2rem;
-    padding: 1.2rem 2.4rem;
+    padding: 1.6rem 2.4rem;
+    margin: auto;
   }
   .video {
-    width: 35rem;
+    width: 45rem;
   }
-
+  .project_header {
+    font-size: 2.4rem;
+  }
   .services_section {
     flex-direction: column;
     padding: 4.8rem 1.6rem;
-    gap: 3.2rem;
+    gap: 4.8rem;
   }
   .contacts_section {
     flex-direction: column;

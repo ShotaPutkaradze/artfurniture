@@ -1,0 +1,20 @@
+.social_container {
+  display: flex;
+  gap: 2rem;
+}
+.social_icons {
+  width: 5rem;
+  height: 5rem;
+  fill: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  padding: 1rem;
+  cursor: pointer;
+  /* border-radius: 4px; */
+
+  transition: all 0.5s;
+}
+
+.social_icons:hover {
+  border: 1px solid #f7f7f7;
+  box-shadow: 0px 0px 4px 2px #f7f7f7;
+}
