@@ -1,132 +1,196 @@
 {
   "images": [
     {
-      "thumbnail": "./galery/thumbnail/IMG1.WEBP",
+      "id": "1",
+      "tag": "hall",
+      "src_thumbnail": "./galery/thumbnail/IMG1.WEBP",
       "src": "./galery/IMG1.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG2.WEBP",
+      "id": "2",
+      "tag": "hall",
+      "src_thumbnail": "./galery/thumbnail/IMG2.WEBP",
       "src": "./galery/IMG2.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG3.WEBP",
+      "id": "3",
+      "tag": "hall",
+      "src_thumbnail": "./galery/thumbnail/IMG3.WEBP",
       "src": "./galery/IMG3.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG4.WEBP",
+      "id": "4",
+      "tag": "hall",
+      "src_thumbnail": "./galery/thumbnail/IMG4.WEBP",
       "src": "./galery/IMG4.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG5.WEBP",
+      "id": "5",
+      "tag": "hall",
+      "src_thumbnail": "./galery/thumbnail/IMG5.WEBP",
       "src": "./galery/IMG5.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG6.WEBP",
+      "id": "6",
+      "tag": "hall",
+      "src_thumbnail": "./galery/thumbnail/IMG6.WEBP",
       "src": "./galery/IMG6.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG7.WEBP",
+      "id": "7",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG7.WEBP",
       "src": "./galery/IMG7.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG8.WEBP",
+      "id": "8",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG8.WEBP",
       "src": "./galery/IMG8.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG9.WEBP",
+      "id": "9",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG9.WEBP",
       "src": "./galery/IMG9.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG10.WEBP",
+      "id": "10",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG10.WEBP",
       "src": "./galery/IMG10.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG11.WEBP",
+      "id": "11",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG11.WEBP",
       "src": "./galery/IMG11.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG12.WEBP",
+      "id": "12",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG12.WEBP",
       "src": "./galery/IMG12.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG13.WEBP",
+      "id": "13",
+      "tag": "living",
+      "src_thumbnail": "./galery/thumbnail/IMG13.WEBP",
       "src": "./galery/IMG13.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG14.WEBP",
+      "id": "14",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG14.WEBP",
       "src": "./galery/IMG14.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG15.WEBP",
+      "id": "15",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG15.WEBP",
       "src": "./galery/IMG15.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG16.WEBP",
+      "id": "16",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG16.WEBP",
       "src": "./galery/IMG16.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG17.WEBP",
+      "id": "17",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG17.WEBP",
       "src": "./galery/IMG17.WEBP"
     },
 
     {
-      "thumbnail": "./galery/thumbnail/IMG19.WEBP",
+      "id": "19",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG19.WEBP",
       "src": "./galery/IMG19.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG20.WEBP",
+      "id": "20",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG20.WEBP",
       "src": "./galery/IMG20.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG21.WEBP",
+      "id": "21",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG21.WEBP",
       "src": "./galery/IMG21.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG22.WEBP",
+      "id": "22",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG22.WEBP",
       "src": "./galery/IMG22.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG23.WEBP",
+      "id": "23",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG23.WEBP",
       "src": "./galery/IMG23.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG24.WEBP",
+      "id": "24",
+      "tag": "kitchen",
+      "src_thumbnail": "./galery/thumbnail/IMG24.WEBP",
       "src": "./galery/IMG24.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG25.WEBP",
+      "id": "25",
+      "tag": "bed",
+      "src_thumbnail": "./galery/thumbnail/IMG25.WEBP",
       "src": "./galery/IMG25.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG26.WEBP",
+      "id": "26",
+      "tag": "bed",
+      "src_thumbnail": "./galery/thumbnail/IMG26.WEBP",
       "src": "./galery/IMG26.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG27.WEBP",
+      "id": "27",
+      "tag": "bed",
+      "src_thumbnail": "./galery/thumbnail/IMG27.WEBP",
       "src": "./galery/IMG27.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG28.WEBP",
+      "id": "28",
+      "tag": "bed",
+      "src_thumbnail": "./galery/thumbnail/IMG28.WEBP",
       "src": "./galery/IMG28.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG29.WEBP",
+      "id": "29",
+      "tag": "office",
+      "src_thumbnail": "./galery/thumbnail/IMG29.WEBP",
       "src": "./galery/IMG29.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG30.WEBP",
+      "id": "30",
+      "tag": "office",
+      "src_thumbnail": "./galery/thumbnail/IMG30.WEBP",
       "src": "./galery/IMG30.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG31.WEBP",
+      "id": "31",
+      "tag": "office",
+      "src_thumbnail": "./galery/thumbnail/IMG31.WEBP",
       "src": "./galery/IMG31.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG32.WEBP",
+      "id": "32",
+      "tag": "office",
+      "src_thumbnail": "./galery/thumbnail/IMG32.WEBP",
       "src": "./galery/IMG32.WEBP"
     },
     {
-      "thumbnail": "./galery/thumbnail/IMG33.WEBP",
+      "id": "33",
+      "tag": "office",
+      "src_thumbnail": "./galery/thumbnail/IMG33.WEBP",
       "src": "./galery/IMG33.WEBP"
     }
   ]

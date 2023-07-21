@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Styles_layouts.module.css";
 import Socials from "../components/Socials";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className={styles.footer_container}>
       <div className={styles.footer_socials}>
@@ -19,6 +19,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

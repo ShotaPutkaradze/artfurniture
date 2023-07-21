@@ -1,0 +1,28 @@
+.galery_section {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.container {
+  margin: 0 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.image_card {
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.image {
+  width: 100%;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 20px 0;
+}

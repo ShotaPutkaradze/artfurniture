@@ -1,24 +1,28 @@
 import "./App.css";
-import Home from "./sections/Home";
-import Contact from "./sections/Contact";
+import Home from "./pages/Home";
 import Header from "./layouts/Header";
-import Footer from "./layouts/Footer";
-import Projects from "./sections/Projects";
-import Services from "./sections/Services";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Home />
-      <Services />
-      <Projects />
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
 
-      <Contact />
-
-      <Footer />
-    </>
+const App = () => {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Header />}>
+        <Route index element={<Home />} />
+        <Route path="galery" element={<Gallery />} />
+        <Route path="contact" element={<Contact />} />
+      </Route>
+    )
   );
-}
+
+  return <RouterProvider router={router} />;
+};
 
 export default App;

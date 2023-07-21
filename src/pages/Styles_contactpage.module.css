@@ -1,0 +1,33 @@
+/***** contacts styles *****/
+/****************************/
+
+.contacts_section {
+  min-height: calc(100vh - 20rem);
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 5rem;
+  margin: auto;
+}
+
+.form_header {
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: #333;
+  text-align: center;
+  line-height: 2;
+  font-weight: 400;
+  width: 50%;
+}
+
+@media screen and (max-width: 775px) {
+  .contacts_section {
+    flex-direction: column;
+    padding: 11rem 1.2rem 4.8rem 1.2rem;
+  }
+
+  .form_header {
+    width: 60%;
+  }
+}
