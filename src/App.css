@@ -6,6 +6,7 @@
 }
 
 html {
+  overflow: scroll;
   font-size: 62.5%;
   line-height: 1;
   font-weight: 400;

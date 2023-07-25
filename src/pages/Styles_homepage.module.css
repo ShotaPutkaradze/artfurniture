@@ -211,6 +211,7 @@
 .galery_img_box {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .galery_img {
@@ -219,7 +220,6 @@
   transition: all 0.3s;
 
   margin: auto;
-  cursor: grab;
 
   display: flex;
   justify-content: center;
