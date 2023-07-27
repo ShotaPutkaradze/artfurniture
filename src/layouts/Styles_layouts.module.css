@@ -96,6 +96,19 @@
   border-bottom: 2px solid #f7f7f7;
 }
 
+/*Language switcher*/
+
+.language_select {
+}
+.custom_select {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.custom_select option {
+  margin: 1rem 2rem;
+}
+
 /*mobile navigation*/
 
 .btn_mobile_nav {
@@ -128,7 +141,7 @@
   align-items: center;
   gap: 4rem;
 
-  min-height: 20rem;
+  min-height: 30rem;
   background-color: #65783a;
   color: #eeedec;
 }
@@ -213,11 +226,11 @@
     display: block;
   }
 
-  .main_nav_link a:link,
-  .main_nav_link a:visited {
-    height: 5.6rem;
+  .main_nav_link:link,
+  .main_nav_link:visited {
     border: none;
     font-size: 3.2rem;
+    gap: 2rem;
   }
 
   .footer_socials {

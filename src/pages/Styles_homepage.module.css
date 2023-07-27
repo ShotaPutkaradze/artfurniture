@@ -31,6 +31,7 @@
   padding-left: 6rem;
   width: 100%;
   gap: 1rem;
+  text-transform: uppercase;
   /* padding: 4.8rem 6.4rem; */
 }
 
@@ -47,6 +48,7 @@
   font-size: 3.6rem;
   line-height: 1.6;
   font-weight: 400;
+  text-transform: uppercase;
 
   color: #333;
 }
@@ -59,6 +61,7 @@
 
   line-height: 2;
   font-weight: 400;
+  text-transform: uppercase;
 
   color: #333;
 }
@@ -306,7 +309,6 @@
   }
   .welcome_texts h2 {
     font-size: 1.6rem;
-
     line-height: 1.2;
     font-weight: 400;
   }

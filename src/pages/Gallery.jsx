@@ -31,7 +31,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className={styles.galery_section} handleSetTag={setTag}>
+    <div className={styles.galery} handleSetTag={setTag}>
       <div className={styles.tags}>
         <TagButton
           name="all"

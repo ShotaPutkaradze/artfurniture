@@ -10,7 +10,42 @@ import "photoswipe/style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Home = () => {
+const Home = (props) => {
+  let content = {
+    Georgian: {
+      headerText: "ავეჯის დამზადება ბათუმში",
+      headetDescLine1: "ინდივიდუალური ზომები და დიზაინი",
+      headetDescLine2: "თანამედროვე მასალები",
+      headetDescLine3: "აზომვითი სამუშაოები ",
+      headetDescLine4: "ნახაზისა და 3D დიზაინის დამზადება",
+      buttonText: "მოგვწერეთ",
+    },
+    English: {
+      headerText: "Furniture making in Batumi",
+      headetDescLine1: "Individual sizes and designs",
+      headetDescLine2: "Modern materials",
+      headetDescLine3: "Measuring jobs",
+      headetDescLine4: "Drafting and 3D design",
+      buttonText: "Get in touch",
+    },
+    Russian: {
+      headerText: "Изготовление мебели в Батуми",
+      headetDescLine1: "Индивидуальные размеры и дизайн",
+      headetDescLine2: "Современные материалы",
+      headetDescLine3: "Измерительные работы",
+      headetDescLine4: "Чертеж и 3D дизайн",
+      buttonText: "Напишите нам",
+    },
+  };
+
+  if (props.language === "Georgian") {
+    content = content.Georgian;
+  } else if (props.language === "English") {
+    content = content.English;
+  } else if (props.language === "Russian") {
+    content = content.Russian;
+  }
+
   useEffect(() => {
     let lightbox = new PhotoSwipeLightbox({
       gallery: `#my-gallery`,
@@ -31,7 +66,7 @@ const Home = () => {
     slidesToShow: 5,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 800,
     lazyLoad: true,
 
     responsive: [
@@ -71,13 +106,14 @@ const Home = () => {
       <section id="home_section" className={styles.home_section}>
         <div className={styles.home_text_container}>
           <div className={styles.welcome_texts}>
-            <h1>ავეჯის დამზადება ბათუმში</h1>
-            <h2>ინდივიდუალური ზომები და დიზაინი</h2>
-            <h2> თანამედროვე მასალები</h2>
-            <h2>აზომვითი სამუშაოები</h2>
-            <h2>ნახაზისა და 3D დიზაინის დამზადება</h2>
+            <h1>{content.headerText}</h1>
+            <h2>{`${content.headetDescLine1}`}</h2>
+            <h2>{`${content.headetDescLine2}`}</h2>
+            <h2>{`${content.headetDescLine3}`}</h2>
+            <h2>{`${content.headetDescLine4}`}</h2>
             <NavLink className={styles.contact_btn} to={"contact"}>
-              მოგვწერეთ <LuMailOpen className={styles.contact_btn_icon} />
+              {content.buttonText}
+              <LuMailOpen className={styles.contact_btn_icon} />
             </NavLink>
           </div>
           <div className={styles.cover}></div>
