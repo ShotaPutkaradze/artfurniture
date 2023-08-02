@@ -4,9 +4,44 @@ import images from "../img.json";
 import PhotoSwipeLightbox from "photoswipe/lightbox";
 import "photoswipe/style.css";
 
-const Gallery = () => {
+const Gallery = (props) => {
   const [tag, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
+
+  let content = {
+    Georgian: {
+      tagButtonNameAll: "ყველა",
+      tagButtonNameHall: "შემოსასვლელის ავეჯი",
+      tagButtonNameKitchen: "სამზარეულოს ავეჯი",
+      tagButtonNameBed: "საძინებლის ავეჯი",
+      tagButtonNameOffice: "საოფისე ავეჯი",
+      tagButtonNameOthers: "სხვა და სხვა",
+    },
+    English: {
+      tagButtonNameAll: "All",
+      tagButtonNameHall: "Hall",
+      tagButtonNameKitchen: "Kitchen",
+      tagButtonNameBed: "Bedroom",
+      tagButtonNameOffice: "Office",
+      tagButtonNameOthers: "Others",
+    },
+    Russian: {
+      tagButtonNameAll: "Все",
+      tagButtonNameHall: "Прихожая мебель",
+      tagButtonNameKitchen: "Кухонная мебель",
+      tagButtonNameBed: "Спальная vебель",
+      tagButtonNameOffice: "Офисная мебель",
+      tagButtonNameOthers: "Другие",
+    },
+  };
+
+  if (props.language === "Georgian") {
+    content = content.Georgian;
+  } else if (props.language === "English") {
+    content = content.English;
+  } else if (props.language === "Russian") {
+    content = content.Russian;
+  }
 
   useEffect(() => {
     if (tag === "all") {
@@ -34,34 +69,40 @@ const Gallery = () => {
     <div className={styles.galery} handleSetTag={setTag}>
       <div className={styles.tags}>
         <TagButton
-          name="all"
+          name={content.tagButtonNameAll}
+          value="all"
           handleSetTag={setTag}
           tagActive={tag === "all" ? true : false}
         />
         <TagButton
-          name="hall"
+          name={content.tagButtonNameHall}
+          value="hall"
           handleSetTag={setTag}
           tagActive={tag === "hall" ? true : false}
         />
+
         <TagButton
-          name="living"
-          handleSetTag={setTag}
-          tagActive={tag === "living" ? true : false}
-        />
-        <TagButton
-          name="kitchen"
+          name={content.tagButtonNameKitchen}
+          value="kitchen"
           handleSetTag={setTag}
           tagActive={tag === "kitchen" ? true : false}
         />
         <TagButton
-          name="bed"
+          name={content.tagButtonNameBed}
+          value="bed"
           handleSetTag={setTag}
           tagActive={tag === "bed" ? true : false}
         />
         <TagButton
-          name="office"
+          name={content.tagButtonNameOffice}
+          value="office"
           handleSetTag={setTag}
           tagActive={tag === "office" ? true : false}
+        />
+        <TagButton
+          name={content.tagButtonNameOthers}
+          handleSetTag={setTag}
+          tagActive={tag === "living" ? true : false}
         />
       </div>
       <div>
@@ -92,11 +133,11 @@ const Gallery = () => {
   );
 };
 
-const TagButton = ({ name, handleSetTag, tagActive }) => {
+const TagButton = ({ name, value, handleSetTag, tagActive }) => {
   return (
     <button
       className={`${styles.tag} ${tagActive ? styles.active : null}`}
-      onClick={() => handleSetTag(name)}
+      onClick={() => handleSetTag(value)}
     >
       {name.toUpperCase()}
     </button>

@@ -67,9 +67,15 @@ const Header = (props) => {
             value={props.language}
             onChange={(e) => props.handleSetLanguage(e.target.value)}
           >
-            <option value="Georgian">ქართული</option>
-            <option value="English">English</option>
-            <option value="Russian">Русский</option>
+            <option className={styles.custom_select_option} value="Georgian">
+              ქართული
+            </option>
+            <option className={styles.custom_select_option} value="English">
+              English
+            </option>
+            <option className={styles.custom_select_option} value="Russian">
+              Русский
+            </option>
           </select>
         </div>
 

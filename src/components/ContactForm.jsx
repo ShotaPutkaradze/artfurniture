@@ -1,9 +1,33 @@
-import React from "react";
 import styles from "./ContactForm.module.css";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function ContactForm() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_om3831d",
+        "template_cb1j949",
+        form.current,
+        "lIc9iSuOIjJphi1Rh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
-    <form class={styles.form} action="#">
+    <form class={styles.form} ref={form} onSubmit={sendEmail} action="#">
       <div>
         <label className={styles.label} for="full-name">
           სახელი და გვარი
@@ -18,7 +42,6 @@ function ContactForm() {
           required
         />
       </div>
-
       <div>
         <label className={styles.label} for="mobile">
           მობილური
@@ -33,8 +56,7 @@ function ContactForm() {
           required
         />
       </div>
-
-      <button class={styles.button}>გაგზავნა</button>
+      <input type="submit" class={styles.button} value="გაგზავნა" />
     </form>
   );
 }
