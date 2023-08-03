@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "tag": "living",
+      "tag": "others",
       "src_thumbnail": "./galery/thumbnail/IMG2.WEBP",
       "src": "./galery/IMG2.WEBP",
       "width": 1875,
@@ -50,7 +50,7 @@
     },
     {
       "id": "7",
-      "tag": "living",
+      "tag": "others",
       "src_thumbnail": "./galery/thumbnail/IMG7.WEBP",
       "src": "./galery/IMG7.WEBP",
       "width": 1875,
@@ -163,7 +163,7 @@
     },
     {
       "id": "22",
-      "tag": "kitchen",
+      "tag": "hall",
       "src_thumbnail": "./galery/thumbnail/IMG22.WEBP",
       "src": "./galery/IMG22.WEBP",
       "width": 1875,
@@ -187,7 +187,7 @@
     },
     {
       "id": "25",
-      "tag": "bed",
+      "tag": "others",
       "src_thumbnail": "./galery/thumbnail/IMG25.WEBP",
       "src": "./galery/IMG25.WEBP",
       "width": 1875,
@@ -195,7 +195,7 @@
     },
     {
       "id": "26",
-      "tag": "bed",
+      "tag": "kitchen",
       "src_thumbnail": "./galery/thumbnail/IMG26.WEBP",
       "src": "./galery/IMG26.WEBP",
       "width": 1875,
@@ -219,7 +219,7 @@
     },
     {
       "id": "29",
-      "tag": "office",
+      "tag": "bed",
       "src_thumbnail": "./galery/thumbnail/IMG29.WEBP",
       "src": "./galery/IMG29.WEBP",
       "width": 1875,
@@ -227,7 +227,7 @@
     },
     {
       "id": "30",
-      "tag": "office",
+      "tag": "bed",
       "src_thumbnail": "./galery/thumbnail/IMG30.WEBP",
       "src": "./galery/IMG30.WEBP",
       "width": 1875,
@@ -235,7 +235,7 @@
     },
     {
       "id": "31",
-      "tag": "office",
+      "tag": "kitchen",
       "src_thumbnail": "./galery/thumbnail/IMG31.WEBP",
       "src": "./galery/IMG31.WEBP",
       "width": 1875,
@@ -243,7 +243,7 @@
     },
     {
       "id": "32",
-      "tag": "office",
+      "tag": "kitchen",
       "src_thumbnail": "./galery/thumbnail/IMG32.WEBP",
       "src": "./galery/IMG32.WEBP",
       "width": 1875,
@@ -251,7 +251,7 @@
     },
     {
       "id": "33",
-      "tag": "office",
+      "tag": "bed",
       "src_thumbnail": "./galery/thumbnail/IMG33.WEBP",
       "src": "./galery/IMG33.WEBP",
       "width": 1875,

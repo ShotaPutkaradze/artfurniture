@@ -101,8 +101,9 @@ const Gallery = (props) => {
         />
         <TagButton
           name={content.tagButtonNameOthers}
+          value="others"
           handleSetTag={setTag}
-          tagActive={tag === "living" ? true : false}
+          tagActive={tag === "others" ? true : false}
         />
       </div>
       <div>
