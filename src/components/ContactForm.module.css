@@ -79,6 +79,7 @@
   .form {
     width: 100%;
     justify-content: center;
+    padding: 1.6rem;
   }
   .button,
   .label,
