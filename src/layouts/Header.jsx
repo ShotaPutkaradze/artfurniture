@@ -1,5 +1,6 @@
 import styles from "./Styles_layouts.module.css";
 import Footer from "./Footer";
+import logo from "../img/logo.webp";
 
 import { NavLink, Outlet } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -32,7 +33,9 @@ const Header = (props) => {
         className={`${styles.header_container} ${styles.sticky}  `}
       >
         <div className={styles.slogan}>
-          <a href="/#">ArtFurniture</a>
+          <a href="/#">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
 
         <nav className={styles.main_nav}>
