@@ -1,8 +1,9 @@
 import styles from "./ContactForm.module.css";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 function ContactForm() {
+  const [status, setStatus] = useState("");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,45 +19,48 @@ function ContactForm() {
       .then(
         (result) => {
           console.log(result.text);
+          setStatus("შეტყობინება გაიგზავნა ✅");
         },
         (error) => {
           console.log(error.text);
+          setStatus("შეტყობინება ვერ გაიგზავნა, მოგვიანებით სცადეთ ⛔");
         }
       );
     e.target.reset();
   };
 
   return (
-    <form class={styles.form} ref={form} onSubmit={sendEmail} action="#">
-      <div>
-        <label className={styles.label} for="full-name">
+    <form class={styles.form} ref={form} onSubmit={sendEmail}>
+      <div class="field">
+        <label className={styles.label} for="full_name">
           სახელი და გვარი
         </label>
         <input
-          name="full-name"
-          id="full-name"
-          className={styles.input}
           type="text"
+          name="full_name"
+          id="full_name"
+          className={styles.input}
           placeholder="სახელი გვარი"
-          autocomplete="off"
+          autocomplete="name"
           required
         />
       </div>
-      <div>
+      <div class="field">
         <label className={styles.label} for="mobile">
           მობილური
         </label>
         <input
+          type="mobile"
           name="mobile"
           id="mobile"
           className={styles.input}
-          type="mobile"
-          placeholder="555 12 34 56"
+          placeholder="XXX XX XX XX"
           autocomplete="mobile"
           required
         />
       </div>
       <input type="submit" class={styles.button} value="გაგზავნა" />
+      <label className={styles.status}>{status}</label>
     </form>
   );
 }

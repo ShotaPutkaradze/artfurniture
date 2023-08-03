@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding: 1.6rem;
+  padding: 10rem 2rem 5rem 2rem;
 
   width: 50%;
 }
@@ -30,6 +30,18 @@
   display: flex;
 }
 
+.status {
+  width: 100%;
+  height: 3rem;
+  display: block;
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  color: #857a72aa;
+  line-height: 2;
+  font-weight: 400;
+  display: flex;
+}
 .button,
 .input {
   display: flex;
