@@ -9,7 +9,7 @@ const Gallery = (props) => {
   const [filteredImages, setFilteredImages] = useState([]);
 
   let content = {
-    Georgian: {
+    GE: {
       tagButtonNameAll: "ყველა",
       tagButtonNameHall: "შემოსასვლელის ავეჯი",
       tagButtonNameKitchen: "სამზარეულოს ავეჯი",
@@ -17,7 +17,7 @@ const Gallery = (props) => {
       tagButtonNameOffice: "საოფისე ავეჯი",
       tagButtonNameOthers: "სხვა და სხვა",
     },
-    English: {
+    EN: {
       tagButtonNameAll: "All",
       tagButtonNameHall: "Hall",
       tagButtonNameKitchen: "Kitchen",
@@ -25,7 +25,7 @@ const Gallery = (props) => {
       tagButtonNameOffice: "Office",
       tagButtonNameOthers: "Others",
     },
-    Russian: {
+    RU: {
       tagButtonNameAll: "Все",
       tagButtonNameHall: "Прихожая мебель",
       tagButtonNameKitchen: "Кухонная мебель",
@@ -35,12 +35,12 @@ const Gallery = (props) => {
     },
   };
 
-  if (props.language === "Georgian") {
-    content = content.Georgian;
-  } else if (props.language === "English") {
-    content = content.English;
-  } else if (props.language === "Russian") {
-    content = content.Russian;
+  if (props.language === "GE") {
+    content = content.GE;
+  } else if (props.language === "EN") {
+    content = content.EN;
+  } else if (props.language === "RU") {
+    content = content.RU;
   }
 
   useEffect(() => {

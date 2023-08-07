@@ -15,7 +15,7 @@ import {
 const App = () => {
   let languageStoredInLocalStorage = localStorage.getItem("language");
   let [language, setLanguage] = useState(
-    languageStoredInLocalStorage ? languageStoredInLocalStorage : "Georgian"
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "GE"
   );
 
   const router = createBrowserRouter(

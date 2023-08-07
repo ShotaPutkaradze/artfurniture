@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Home = (props) => {
   let content = {
-    Georgian: {
+    GE: {
       headerText: "ავეჯის დამზადება ბათუმში",
       headetDescLine1: "ინდივიდუალური ზომები და დიზაინი",
       headetDescLine2: "თანამედროვე მასალები",
@@ -20,7 +20,7 @@ const Home = (props) => {
       headetDescLine4: "ნახაზისა და 3D დიზაინის დამზადება",
       buttonText: "მოგვწერეთ",
     },
-    English: {
+    EN: {
       headerText: "Furniture making in Batumi",
       headetDescLine1: "Individual sizes and designs",
       headetDescLine2: "Modern materials",
@@ -28,7 +28,7 @@ const Home = (props) => {
       headetDescLine4: "Drafting and 3D design",
       buttonText: "Get in touch",
     },
-    Russian: {
+    RU: {
       headerText: "Изготовление мебели в Батуми",
       headetDescLine1: "Индивидуальные размеры и дизайн",
       headetDescLine2: "Современные материалы",
@@ -38,12 +38,12 @@ const Home = (props) => {
     },
   };
 
-  if (props.language === "Georgian") {
-    content = content.Georgian;
-  } else if (props.language === "English") {
-    content = content.English;
-  } else if (props.language === "Russian") {
-    content = content.Russian;
+  if (props.language === "GE") {
+    content = content.GE;
+  } else if (props.language === "EN") {
+    content = content.EN;
+  } else if (props.language === "RU") {
+    content = content.RU;
   }
 
   useEffect(() => {

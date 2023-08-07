@@ -8,17 +8,17 @@ import { useRef } from "react";
 
 const Header = (props) => {
   let content = {
-    Georgian: { home: "მთავარი", projects: "პროექტები", contacts: "კონტაქტი" },
-    English: { home: "HOME", projects: "PROJECTS", contacts: "CONTACTS" },
-    Russian: { home: "ГЛАВНАЯ", projects: "ПРОЕКТИ", contacts: "КОНТАКТИ" },
+    GE: { home: "მთავარი", projects: "პროექტები", contacts: "კონტაქტი" },
+    EN: { home: "HOME", projects: "PROJECTS", contacts: "CONTACTS" },
+    RU: { home: "ГЛАВНАЯ", projects: "ПРОЕКТИ", contacts: "КОНТАКТИ" },
   };
 
-  if (props.language === "Georgian") {
-    content = content.Georgian;
-  } else if (props.language === "English") {
-    content = content.English;
-  } else if (props.language === "Russian") {
-    content = content.Russian;
+  if (props.language === "GE") {
+    content = content.GE;
+  } else if (props.language === "EN") {
+    content = content.EN;
+  } else if (props.language === "RU") {
+    content = content.RU;
   }
 
   const navRef = useRef();
@@ -70,14 +70,14 @@ const Header = (props) => {
             value={props.language}
             onChange={(e) => props.handleSetLanguage(e.target.value)}
           >
-            <option className={styles.custom_select_option} value="Georgian">
-              ქართული
+            <option className={styles.custom_select_option} value="GE">
+              GE
             </option>
-            <option className={styles.custom_select_option} value="English">
-              English
+            <option className={styles.custom_select_option} value="EN">
+              EN
             </option>
-            <option className={styles.custom_select_option} value="Russian">
-              Русский
+            <option className={styles.custom_select_option} value="RU">
+              RU
             </option>
           </select>
         </div>
