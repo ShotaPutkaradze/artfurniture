@@ -274,6 +274,10 @@
   html {
     font-size: 50%;
   }
+
+  .home_section {
+    padding-top: 11rem;
+  }
   .galery_img {
     max-height: 45rem;
   }
@@ -281,7 +285,7 @@
 
 @media screen and (max-width: 990px) {
   .cover {
-    width: 70rem;
+    width: 71rem;
     height: 43.8rem;
   }
 }
@@ -289,11 +293,6 @@
 @media screen and (max-width: 970px) {
   .video {
     width: 50rem;
-  }
-
-  .cover {
-    width: 70rem;
-    height: 43.8rem;
   }
 }
 
