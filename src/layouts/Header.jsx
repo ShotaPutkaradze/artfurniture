@@ -33,7 +33,9 @@ const Header = (props) => {
         className={`${styles.header_container} ${styles.sticky}  `}
       >
         <div className={styles.slogan}>
-          <a href="/#">{/* <img src={logo} alt="logo" /> */}</a>
+          <a href="/#">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
 
         <nav className={styles.main_nav}>
