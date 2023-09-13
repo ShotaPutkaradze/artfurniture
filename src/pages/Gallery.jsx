@@ -47,7 +47,9 @@ const Gallery = (props) => {
     if (tag === "all") {
       setFilteredImages(images.images);
     } else {
-      setFilteredImages(images.images.filter((image) => image.tag === tag));
+      setFilteredImages(
+        images.images.filter((image) => image.tag.includes(tag))
+      );
     }
   }, [tag]);
 

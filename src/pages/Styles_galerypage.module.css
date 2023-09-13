@@ -41,8 +41,8 @@
 }
 
 .active {
-  background-color: #65783a;
-  color: #eee;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 @media screen and (max-width: 830px) {

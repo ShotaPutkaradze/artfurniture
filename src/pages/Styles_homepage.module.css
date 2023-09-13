@@ -19,7 +19,7 @@
   align-items: center;
   min-height: 43.8rem;
   /* margin-bottom: 8rem; */
-  background-color: #eeedec;
+  background-color: var(--secondary-color);
 
   /* offset-x | offset-y | blur-radius | color */
   /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); */
@@ -37,8 +37,8 @@
 
 .welcome_texts h1 {
   width: 100%;
-  border-top: 2px solid #65783a;
-  border-bottom: 2px solid #65783a;
+  border-top: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
   width: fit-content;
   margin-bottom: 2rem;
 
@@ -50,7 +50,7 @@
   font-weight: 400;
   text-transform: uppercase;
 
-  color: #333;
+  color: var(--text-main-color);
 }
 .welcome_texts h2,
 .welcome_texts p {
@@ -63,7 +63,7 @@
   font-weight: 400;
   text-transform: uppercase;
 
-  color: #333;
+  color: var(--text-main-color);
 }
 
 .contact_btn {
@@ -78,16 +78,16 @@
   margin-top: 1.6rem;
 
   cursor: pointer;
-  background-color: #65783a;
+  background-color: var(--main-color);
 
   font-size: 1.6rem;
-  color: #eeedec;
+  color: var(--secondary-color);
   letter-spacing: 0.5rem;
 
   text-decoration: none;
   text-align: center;
 
-  border: 2px solid #65783a;
+  border: 2px solid var(--main-color);
   border-radius: 8px;
 
   transition: all 0.5s;
@@ -98,20 +98,24 @@
 }
 
 .contact_btn_icon:hover {
-  color: #333;
+  color: var(--text-main-color);
 }
 
 .contact_btn:hover {
-  color: #333;
-  background-color: #eeedec;
-  border: 2px solid #65783a;
+  color: var(--text-main-color);
+  background-color: --secondary-color;
+  border: 2px solid var(--main-color);
 }
 
 .cover {
   width: 81rem;
   height: 50rem;
 
-  background-image: linear-gradient(90deg, #eeedec 2%, #ffffff0e 25%),
+  background-image: linear-gradient(
+      90deg,
+      var(--secondary-color) 2%,
+      #ffffff0e 25%
+    ),
     url("../img/background.webp");
 
   background-size: contain;
@@ -129,7 +133,7 @@
   align-items: center;
   min-height: 60rem;
   padding: 3rem;
-  background-color: #f7f7f7;
+  background-color: var(--secondary-color);
 }
 
 .services_icon {
@@ -137,7 +141,7 @@
   height: 3.6rem;
 
   margin-right: 5rem;
-  stroke: #65783a;
+  stroke: var(--main-color);
 }
 
 .services_list_conainer {
@@ -145,7 +149,7 @@
   flex-direction: column;
 
   font-family: "BPG Arial Caps", sans-serif;
-  color: #333;
+  color: var(--text-main-color);
   line-height: 1.8;
   max-width: 70rem;
 }
@@ -153,7 +157,7 @@
 .services_list_conainer ul {
   text-align: right;
   padding-left: 3rem;
-  border-left: 5px solid #65783a;
+  border-left: 5px solid var(--main-color);
   max-width: 40rem;
 }
 
@@ -168,7 +172,7 @@
 .services_list_conainer li {
   font-size: 2.4rem;
   list-style: none;
-  border-bottom: 1px solid #65783a;
+  border-bottom: 1px solid var(--main-color);
   transition: all 0.3s;
   margin: 2rem 0;
 }
@@ -203,7 +207,7 @@
   font-weight: 400;
   margin: 2rem;
 
-  color: #333;
+  color: var(--text-main-color);
 }
 
 .galery {

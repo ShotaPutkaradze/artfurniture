@@ -11,8 +11,7 @@
   padding: 0 2rem;
 
   margin: 0 auto;
-  /* background-color: #f7f7f7; */
-  background-color: #65783a;
+  background-color: var(--main-color);
 
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
   position: relative;
@@ -43,7 +42,7 @@
   padding: 0 1rem;
 
   text-decoration: none;
-  color: #f7f7f7;
+  color: var(--secondary-color);
   font-size: 3.2rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -53,7 +52,7 @@
 
 .slogan a:hover,
 .slogan a:active {
-  color: #65783a;
+  color: var(--main-color);
 }
 
 /*navigation*/
@@ -77,12 +76,12 @@
   padding: 0 2rem;
 
   text-decoration: none;
-  color: #f7f7f7;
+  color: var(--secondary-color);
   font-size: 1.6rem;
   letter-spacing: 0.3rem;
 
-  border-top: 2px solid #65783a;
-  border-bottom: 2px solid #65783a;
+  border-top: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
   font-family: "BPG Arial Caps", sans-serif;
   font-weight: 600;
 
@@ -91,9 +90,8 @@
 
 .main_nav_link:hover,
 .main_nav_link:active {
-  /* color: #f7f7f7; */
-  border-top: 2px solid #f7f7f7;
-  border-bottom: 2px solid #f7f7f7;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
 }
 
 /*Language switcher*/
@@ -103,19 +101,19 @@
   border-radius: 1rem;
   cursor: pointer;
   font-size: 2rem;
-  background-color: #65783a;
-  border: 1px solid #f7f7f7;
-  color: #f7f7f7;
+  background-color: var(--main-color);
+  border: 1px solid var(--border-color);
+  color: var(--secondary-color);
   font-family: "BPG Arial Caps", sans-serif;
   text-transform: uppercase;
-  box-shadow: 0px 0px 2px 3px #f7f7f7;
+  box-shadow: 0px 0px 2px 3px var(--border-color);
   min-height: 4rem;
 }
 .custom_select_option {
   margin: 1rem 2rem;
 }
 .custom_select_option:hover {
-  background-color: #f7f7f7;
+  background-color: var(--secondary-color);
 }
 
 /*mobile navigation*/
@@ -126,7 +124,7 @@
   background: none;
 
   border: none;
-  color: #f7f7f7;
+  color: var(--secondary-color);
   display: none;
   z-index: 9999;
 }
@@ -151,8 +149,8 @@
   gap: 4rem;
 
   min-height: 30rem;
-  background-color: #65783a;
-  color: #eeedec;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 .footer_container span {
@@ -166,14 +164,14 @@
   border: none;
   text-decoration: none;
   font-size: 1.6rem;
-  color: #eeedec;
+  color: var(--secondary-color);
   line-height: 1.8;
   transition: all 0.5s;
 }
 
 .footer_mob {
   margin-top: 2rem;
-  border: 1px solid #eeedec;
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   cursor: pointer;
   text-align: center;

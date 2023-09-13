@@ -2,7 +2,7 @@
   "images": [
     {
       "id": "1",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG1.WEBP",
       "src": "./galery/IMG1.WEBP",
       "width": 1875,
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "tag": "others",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG2.WEBP",
       "src": "./galery/IMG2.WEBP",
       "width": 1875,
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG3.WEBP",
       "src": "./galery/IMG3.WEBP",
       "width": 1875,
@@ -26,7 +26,7 @@
     },
     {
       "id": "4",
-      "tag": "hall",
+      "tag": ["hall"],
       "src_thumbnail": "./galery/thumbnail/IMG4.WEBP",
       "src": "./galery/IMG4.WEBP",
       "width": 1875,
@@ -34,7 +34,7 @@
     },
     {
       "id": "5",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG5.WEBP",
       "src": "./galery/IMG5.WEBP",
       "width": 1875,
@@ -42,7 +42,7 @@
     },
     {
       "id": "6",
-      "tag": "hall",
+      "tag": ["hall"],
       "src_thumbnail": "./galery/thumbnail/IMG6.WEBP",
       "src": "./galery/IMG6.WEBP",
       "width": 1875,
@@ -50,7 +50,7 @@
     },
     {
       "id": "7",
-      "tag": "others",
+      "tag": ["others"],
       "src_thumbnail": "./galery/thumbnail/IMG7.WEBP",
       "src": "./galery/IMG7.WEBP",
       "width": 1875,
@@ -58,7 +58,7 @@
     },
     {
       "id": "8",
-      "tag": "living",
+      "tag": ["living"],
       "src_thumbnail": "./galery/thumbnail/IMG8.WEBP",
       "src": "./galery/IMG8.WEBP",
       "width": 1875,
@@ -66,7 +66,7 @@
     },
     {
       "id": "9",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG9.WEBP",
       "src": "./galery/IMG9.WEBP",
       "width": 1875,
@@ -74,7 +74,7 @@
     },
     {
       "id": "10",
-      "tag": "hall",
+      "tag": ["hall", "others"],
       "src_thumbnail": "./galery/thumbnail/IMG10.WEBP",
       "src": "./galery/IMG10.WEBP",
       "width": 1875,
@@ -82,7 +82,7 @@
     },
     {
       "id": "11",
-      "tag": "hall",
+      "tag": ["hall"],
       "src_thumbnail": "./galery/thumbnail/IMG11.WEBP",
       "src": "./galery/IMG11.WEBP",
       "width": 1875,
@@ -90,7 +90,7 @@
     },
     {
       "id": "12",
-      "tag": "bed",
+      "tag": ["bed", "others"],
       "src_thumbnail": "./galery/thumbnail/IMG12.WEBP",
       "src": "./galery/IMG12.WEBP",
       "width": 1875,
@@ -98,7 +98,7 @@
     },
     {
       "id": "13",
-      "tag": "hall",
+      "tag": ["hall"],
       "src_thumbnail": "./galery/thumbnail/IMG13.WEBP",
       "src": "./galery/IMG13.WEBP",
       "width": 1875,
@@ -106,7 +106,7 @@
     },
     {
       "id": "14",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG14.WEBP",
       "src": "./galery/IMG14.WEBP",
       "width": 1875,
@@ -114,7 +114,7 @@
     },
     {
       "id": "15",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG15.WEBP",
       "src": "./galery/IMG15.WEBP",
       "width": 1875,
@@ -122,7 +122,7 @@
     },
     {
       "id": "16",
-      "tag": "hall",
+      "tag": ["hall", "others"],
       "src_thumbnail": "./galery/thumbnail/IMG16.WEBP",
       "src": "./galery/IMG16.WEBP",
       "width": 1875,
@@ -130,7 +130,7 @@
     },
     {
       "id": "17",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG17.WEBP",
       "src": "./galery/IMG17.WEBP",
       "width": 1875,
@@ -139,7 +139,7 @@
 
     {
       "id": "19",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG19.WEBP",
       "src": "./galery/IMG19.WEBP",
       "width": 1875,
@@ -147,7 +147,7 @@
     },
     {
       "id": "20",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG20.WEBP",
       "src": "./galery/IMG20.WEBP",
       "width": 1875,
@@ -155,7 +155,7 @@
     },
     {
       "id": "21",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG21.WEBP",
       "src": "./galery/IMG21.WEBP",
       "width": 1875,
@@ -163,7 +163,7 @@
     },
     {
       "id": "22",
-      "tag": "hall",
+      "tag": ["hall"],
       "src_thumbnail": "./galery/thumbnail/IMG22.WEBP",
       "src": "./galery/IMG22.WEBP",
       "width": 1875,
@@ -171,7 +171,7 @@
     },
     {
       "id": "23",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG23.WEBP",
       "src": "./galery/IMG23.WEBP",
       "width": 1875,
@@ -179,7 +179,7 @@
     },
     {
       "id": "24",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG24.WEBP",
       "src": "./galery/IMG24.WEBP",
       "width": 1875,
@@ -187,7 +187,7 @@
     },
     {
       "id": "25",
-      "tag": "others",
+      "tag": ["others"],
       "src_thumbnail": "./galery/thumbnail/IMG25.WEBP",
       "src": "./galery/IMG25.WEBP",
       "width": 1875,
@@ -195,7 +195,7 @@
     },
     {
       "id": "26",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG26.WEBP",
       "src": "./galery/IMG26.WEBP",
       "width": 1875,
@@ -203,7 +203,7 @@
     },
     {
       "id": "27",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG27.WEBP",
       "src": "./galery/IMG27.WEBP",
       "width": 1875,
@@ -211,7 +211,7 @@
     },
     {
       "id": "28",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG28.WEBP",
       "src": "./galery/IMG28.WEBP",
       "width": 1875,
@@ -219,7 +219,7 @@
     },
     {
       "id": "29",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG29.WEBP",
       "src": "./galery/IMG29.WEBP",
       "width": 1875,
@@ -227,7 +227,7 @@
     },
     {
       "id": "30",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG30.WEBP",
       "src": "./galery/IMG30.WEBP",
       "width": 1875,
@@ -235,7 +235,7 @@
     },
     {
       "id": "31",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG31.WEBP",
       "src": "./galery/IMG31.WEBP",
       "width": 1875,
@@ -243,7 +243,7 @@
     },
     {
       "id": "32",
-      "tag": "kitchen",
+      "tag": ["kitchen"],
       "src_thumbnail": "./galery/thumbnail/IMG32.WEBP",
       "src": "./galery/IMG32.WEBP",
       "width": 1875,
@@ -251,9 +251,17 @@
     },
     {
       "id": "33",
-      "tag": "bed",
+      "tag": ["bed"],
       "src_thumbnail": "./galery/thumbnail/IMG33.WEBP",
       "src": "./galery/IMG33.WEBP",
+      "width": 1875,
+      "height": 2500
+    },
+    {
+      "id": "34",
+      "tag": ["others"],
+      "src_thumbnail": "./galery/thumbnail/IMG34.WEBP",
+      "src": "./galery/IMG34.WEBP",
       "width": 1875,
       "height": 2500
     }
