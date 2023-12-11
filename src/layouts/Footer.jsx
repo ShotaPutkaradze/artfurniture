@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.footer_copyright}>
-        <span>ArtFurniture &copy;</span> ყველა უფლება დაცულია
+        <span> &copy; ArtFurniture </span>
       </div>
     </div>
   );

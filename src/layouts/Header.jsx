@@ -1,6 +1,6 @@
 import styles from "./Styles_layouts.module.css";
 import Footer from "./Footer";
-import logo from "../img/logo.webp";
+import logo from "../img/logo.png";
 
 import { NavLink, Outlet } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
