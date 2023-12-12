@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4bd465c.css",
-    "main.js": "/static/js/main.c7669cc8.js",
+    "main.css": "/static/css/main.6cb1e445.css",
+    "main.js": "/static/js/main.efe1fbe2.js",
     "static/js/981.43f6c26c.chunk.js": "/static/js/981.43f6c26c.chunk.js",
     "static/media/bpg-arial-caps-webfont.svg": "/static/media/bpg-arial-caps-webfont.6b1ec6354c7ac0c7a8be.svg",
     "static/media/bpg-arial-caps-webfont.eot": "/static/media/bpg-arial-caps-webfont.20a2351539fc1234b669.eot",
     "static/media/bpg-arial-caps-webfont.ttf": "/static/media/bpg-arial-caps-webfont.6c0cb06870e28fa1b314.ttf",
     "static/media/bpg-arial-caps-webfont.woff": "/static/media/bpg-arial-caps-webfont.e8faac4e4de92922c012.woff",
+    "static/media/logo.png": "/static/media/logo.35dc7aabfe3aa127b712.png",
     "static/media/background.webp": "/static/media/background.85c8fc7504a16e63ffbe.webp",
     "static/media/bpg-nino-mtavruli-webfont.svg": "/static/media/bpg-nino-mtavruli-webfont.3e3f48063fc06efee81d.svg",
     "static/media/bpg-arial-caps-webfont.woff2": "/static/media/bpg-arial-caps-webfont.0d93125b82280e12e1ea.woff2",
@@ -19,13 +20,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "static/media/logo.webp": "/static/media/logo.aaec186496c92b681605.webp",
-    "main.e4bd465c.css.map": "/static/css/main.e4bd465c.css.map",
-    "main.c7669cc8.js.map": "/static/js/main.c7669cc8.js.map",
+    "main.6cb1e445.css.map": "/static/css/main.6cb1e445.css.map",
+    "main.efe1fbe2.js.map": "/static/js/main.efe1fbe2.js.map",
     "981.43f6c26c.chunk.js.map": "/static/js/981.43f6c26c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4bd465c.css",
-    "static/js/main.c7669cc8.js"
+    "static/css/main.6cb1e445.css",
+    "static/js/main.efe1fbe2.js"
   ]
 }

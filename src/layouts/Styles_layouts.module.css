@@ -203,7 +203,7 @@
   }
 
   .main_nav {
-    background-color: rgba(101, 120, 58, 0.97);
+    background-color: var(--main-color);
     position: absolute;
     top: 0;
     left: 0;
