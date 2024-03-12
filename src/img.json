@@ -264,6 +264,14 @@
       "src": "./galery/IMG34.WEBP",
       "width": 1875,
       "height": 2500
+    },
+    {
+      "id": "35",
+      "tag": ["kitchen"],
+      "src_thumbnail": "./galery/thumbnail/IMG35.WEBP",
+      "src": "./galery/IMG35.WEBP",
+      "width": 1875,
+      "height": 2500
     }
   ]
 }

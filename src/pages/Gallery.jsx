@@ -125,7 +125,7 @@ const Gallery = (props) => {
                 <img
                   className={styles.image}
                   src={image.src_thumbnail}
-                  alt=""
+                  alt="ავეჯის დამზადება ბათუმში"
                 />
               </a>
             </div>

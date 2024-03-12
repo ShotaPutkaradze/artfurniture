@@ -173,7 +173,7 @@ const Home = (props) => {
                   <img
                     className={styles.galery_img}
                     src={image.src_thumbnail}
-                    alt=""
+                    alt="ავეჯის დამზადება ბათუმში"
                   ></img>
                 </a>
               </div>
